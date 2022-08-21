@@ -1,0 +1,31 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>arrow.png</file>
+    <file>barge128x128.png</file>
+    <file>caleb brett logo.jpg</file>
+    <file>hapag lloyd200.png</file>
+    <file>icons8_historic_ship_64px.png</file>
+    <file>icons8_inspection_240px.png</file>
+    <file>icons8_lighthouse_52px.png</file>
+    <file>icons8_lighthouse_128px.png</file>
+    <file>icons8_penguin_240px.png</file>
+    <file>icons8_sail_boat_64px.png</file>
+    <file>icons8_sailing_boat_48px.png</file>
+    <file>icons8_sailing_ship_60px.png</file>
+    <file>icons8_sea_shell_60px.png</file>
+    <file>icons8_sea_shell_240px.png</file>
+    <file>icons8_ship_wheel_52px.png</file>
+    <file>icons8_ship_wheel_240px.png</file>
+    <file>icons8_starfish_52px.png</file>
+    <file>icons8_survey_48px.png</file>
+    <file>icons8_water_transportation_52px.png</file>
+    <file>intertek_logo.gif</file>
+    <file>intertek-logo-opac.png</file>
+    <file>intertek-logo-opac-ico.ico</file>
+    <file>lighthouse.png</file>
+    <file>lintec128x128.png</file>
+    <file>lpglogo.png</file>
+    <file>petro inspect200x200.png</file>
+    <file>train-logo.png</file>
+  </qresource>
+</RCC>

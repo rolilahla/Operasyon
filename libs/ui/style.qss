@@ -1,0 +1,17 @@
+
+stackedWidget{
+	background:#ffffff;
+}
+QFrame{
+	background:#ffffff;
+}
+
+QPushButton:hover{
+	background:#00bfff;
+	border:none;
+}
+
+QPushButton:pressed{
+	background:#00d0ff;
+	border:none;
+}
