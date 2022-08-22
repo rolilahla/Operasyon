@@ -3,8 +3,8 @@
     <file>arrow.png</file>
     <file>barge128x128.png</file>
     <file>caleb brett logo.jpg</file>
-    <file>hapag lloyd200.png</file>
     <file>icons8_historic_ship_64px.png</file>
+    <file>hapag lloyd200.png</file>
     <file>icons8_inspection_240px.png</file>
     <file>icons8_lighthouse_52px.png</file>
     <file>icons8_lighthouse_128px.png</file>
@@ -25,7 +25,7 @@
     <file>lighthouse.png</file>
     <file>lintec128x128.png</file>
     <file>lpglogo.png</file>
-    <file>petro inspect200x200.png</file>
     <file>train-logo.png</file>
+    <file>petro inspect200x200.png</file>
   </qresource>
 </RCC>
