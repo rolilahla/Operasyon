@@ -6,16 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>839</width>
-    <height>599</height>
+    <width>855</width>
+    <height>559</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>İntertek Caleb Brett OP</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>:/icon/intertek-logo-opac-ico.ico</normaloff>:/icon/intertek-logo-opac-ico.ico</iconset>
+   <iconset resource="../icons/rc.qrc">
+    <normaloff>:/icons/intertek-logo-opac.png</normaloff>:/icons/intertek-logo-opac.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>1.000000000000000</double>
@@ -27,7 +27,7 @@
    <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout_4">
+   <layout class="QGridLayout" name="gridLayout">
     <property name="leftMargin">
      <number>0</number>
     </property>
@@ -40,10 +40,7 @@
     <property name="bottomMargin">
      <number>0</number>
     </property>
-    <property name="spacing">
-     <number>0</number>
-    </property>
-    <item row="0" column="0">
+    <item row="0" column="0" rowspan="2" colspan="2">
      <widget class="QFrame" name="head">
       <property name="frameShape">
        <enum>QFrame::NoFrame</enum>
@@ -76,10 +73,19 @@
           <bool>true</bool>
          </property>
          <property name="currentIndex">
-          <number>2</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="anasayfa">
-          <layout class="QGridLayout" name="gridLayout">
+          <layout class="QGridLayout" name="gridLayout_4">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
            <item row="0" column="0">
             <widget class="QFrame" name="frame">
              <property name="minimumSize">
@@ -105,7 +111,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_2">
               <item>
-               <widget class="QPushButton" name="pushButton">
+               <widget class="QPushButton" name="petrobutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -183,7 +189,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_3">
               <item>
-               <widget class="QPushButton" name="pushButton_2">
+               <widget class="QPushButton" name="lintecbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -261,7 +267,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_4">
               <item>
-               <widget class="QPushButton" name="pushButton_3">
+               <widget class="QPushButton" name="hapagbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -339,7 +345,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_5">
               <item>
-               <widget class="QPushButton" name="pushButton_4">
+               <widget class="QPushButton" name="lighthousebutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -417,7 +423,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_6">
               <item>
-               <widget class="QPushButton" name="pushButton_5">
+               <widget class="QPushButton" name="bqsbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -429,7 +435,7 @@
                 </property>
                 <property name="icon">
                  <iconset resource="../icons/rc.qrc">
-                  <normaloff>:/icons/icons8_sea_shell_240px.png</normaloff>:/icons/icons8_sea_shell_240px.png</iconset>
+                  <normaloff>:/icons/icons8_lighthouse_128px.png</normaloff>:/icons/icons8_lighthouse_128px.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -495,7 +501,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <item>
-               <widget class="QPushButton" name="pushButton_6">
+               <widget class="QPushButton" name="cleanlinesbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -573,7 +579,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_8">
               <item>
-               <widget class="QPushButton" name="pushButton_7">
+               <widget class="QPushButton" name="lpgbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -651,7 +657,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_9">
               <item>
-               <widget class="QPushButton" name="pushButton_8">
+               <widget class="QPushButton" name="bargeloadingbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -729,7 +735,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_10">
               <item>
-               <widget class="QPushButton" name="pushButton_9">
+               <widget class="QPushButton" name="undeliveredbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -807,7 +813,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_11">
               <item>
-               <widget class="QPushButton" name="pushButton_10">
+               <widget class="QPushButton" name="quantitycontrolbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -885,7 +891,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_12">
               <item>
-               <widget class="QPushButton" name="pushButton_11">
+               <widget class="QPushButton" name="onhirebutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -963,7 +969,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_13">
               <item>
-               <widget class="QPushButton" name="pushButton_12">
+               <widget class="QPushButton" name="supplierbargebutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -1041,7 +1047,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_14">
               <item>
-               <widget class="QPushButton" name="pushButton_13">
+               <widget class="QPushButton" name="ittbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -1119,7 +1125,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_15">
               <item>
-               <widget class="QPushButton" name="pushButton_14">
+               <widget class="QPushButton" name="chemicalbutton">
                 <property name="autoFillBackground">
                  <bool>false</bool>
                 </property>
@@ -1163,6 +1169,84 @@
                 </property>
                 <property name="text">
                  <string>Chemical</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="2" column="2" colspan="2">
+            <widget class="QFrame" name="frame_79">
+             <property name="minimumSize">
+              <size>
+               <width>122</width>
+               <height>137</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>122</width>
+               <height>137</height>
+              </size>
+             </property>
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item>
+               <widget class="QPushButton" name="joblistbutton">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../icons/rc.qrc">
+                  <normaloff>:/icons/icons8_sea_shell_240px.png</normaloff>:/icons/icons8_sea_shell_240px.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>90</width>
+                  <height>90</height>
+                 </size>
+                </property>
+                <property name="autoDefault">
+                 <bool>false</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_32">
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 10pt &quot;Simple tfb&quot;;</string>
+                </property>
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+                <property name="text">
+                 <string>Job List</string>
                 </property>
                 <property name="alignment">
                  <set>Qt::AlignCenter</set>
@@ -1217,6 +1301,12 @@
               </property>
               <item row="0" column="0">
                <widget class="QFrame" name="frame_14">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>81</height>
+                 </size>
+                </property>
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
@@ -1259,7 +1349,7 @@
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_15">
+                   <widget class="QPushButton" name="exitpetropage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -1374,66 +1464,142 @@
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
                 </property>
-                <widget class="QLabel" name="label_14">
-                 <property name="geometry">
-                  <rect>
-                   <x>10</x>
-                   <y>10</y>
-                   <width>41</width>
-                   <height>16</height>
-                  </rect>
+                <layout class="QHBoxLayout" name="horizontalLayout_17">
+                 <property name="leftMargin">
+                  <number>0</number>
                  </property>
-                 <property name="text">
-                  <string>Gemi Adı</string>
+                 <property name="topMargin">
+                  <number>0</number>
                  </property>
-                </widget>
-                <widget class="QLabel" name="label_27">
-                 <property name="geometry">
-                  <rect>
-                   <x>57</x>
-                   <y>10</y>
-                   <width>16</width>
-                   <height>16</height>
-                  </rect>
+                 <property name="rightMargin">
+                  <number>0</number>
                  </property>
-                 <property name="text">
-                  <string>:</string>
+                 <property name="bottomMargin">
+                  <number>0</number>
                  </property>
-                </widget>
-                <widget class="QLineEdit" name="lineEdit">
-                 <property name="geometry">
-                  <rect>
-                   <x>67</x>
-                   <y>10</y>
-                   <width>133</width>
-                   <height>20</height>
-                  </rect>
-                 </property>
-                </widget>
-                <widget class="QPushButton" name="petroButton">
-                 <property name="geometry">
-                  <rect>
-                   <x>125</x>
-                   <y>420</y>
-                   <width>75</width>
-                   <height>23</height>
-                  </rect>
-                 </property>
-                 <property name="text">
-                  <string>Oluştur</string>
-                 </property>
-                </widget>
-                <widget class="QTextEdit" name="textEdit">
-                 <property name="geometry">
-                  <rect>
-                   <x>206</x>
-                   <y>6</y>
-                   <width>581</width>
-                   <height>441</height>
-                  </rect>
-                 </property>
-                 <property name="html">
-                  <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+                 <item>
+                  <widget class="QFrame" name="frame_81">
+                   <property name="minimumSize">
+                    <size>
+                     <width>210</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>210</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_17">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_18">
+                      <item>
+                       <widget class="QLabel" name="label_14">
+                        <property name="text">
+                         <string>Gemi Adı</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_27">
+                        <property name="text">
+                         <string>:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="petrogemiline"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QCheckBox" name="checkBox_petro_lop">
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="text">
+                       <string>Letter Of Protest</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QCheckBox" name="checkBox_petro_prosedur">
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="text">
+                       <string>Prosedür PDF   </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QCheckBox" name="checkBox_petro_gt">
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="text">
+                       <string>Gauging Tickets</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>393</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="petroolusturbutton">
+                      <property name="text">
+                       <string>Oluştur</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_82">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_35">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item row="0" column="0">
+                     <widget class="QTextEdit" name="textEdit">
+                      <property name="html">
+                       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -1707,9 +1873,15 @@ p, li { white-space: pre-wrap; }
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                </widget>
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3312 -  2580&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
              </layout>
@@ -1760,6 +1932,12 @@ p, li { white-space: pre-wrap; }
               </property>
               <item row="0" column="0">
                <widget class="QFrame" name="frame_35">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>81</height>
+                 </size>
+                </property>
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
@@ -1802,7 +1980,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_16">
+                   <widget class="QPushButton" name="exitlintecpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -1914,22 +2092,161 @@ p, li { white-space: pre-wrap; }
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
                 </property>
-                <widget class="QFrame" name="frame_78">
-                 <property name="geometry">
-                  <rect>
-                   <x>0</x>
-                   <y>0</y>
-                   <width>361</width>
-                   <height>451</height>
-                  </rect>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                </widget>
+                <layout class="QHBoxLayout" name="horizontalLayout_16">
+                 <item>
+                  <widget class="QFrame" name="frame_78">
+                   <property name="minimumSize">
+                    <size>
+                     <width>230</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>230</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_19">
+                      <item>
+                       <widget class="QLabel" name="label_34">
+                        <property name="minimumSize">
+                         <size>
+                          <width>50</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string>Gemi Adı</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_35">
+                        <property name="text">
+                         <string>:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="linteclineEdit"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_20">
+                      <item>
+                       <widget class="QLabel" name="label_36">
+                        <property name="minimumSize">
+                         <size>
+                          <width>50</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string>Ref No   </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_37">
+                        <property name="text">
+                         <string>:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="linteclineEdit_2"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_21">
+                      <item>
+                       <widget class="QLabel" name="label_38">
+                        <property name="minimumSize">
+                         <size>
+                          <width>50</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string>Gemi IMO</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_39">
+                        <property name="text">
+                         <string>:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="linteclineEdit_3"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_2">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>289</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="lintecolusturbutton">
+                      <property name="text">
+                       <string>Oluştur</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_80">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
              </layout>
@@ -2022,7 +2339,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_17">
+                   <widget class="QPushButton" name="exithapagpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -2035,8 +2352,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -2109,7 +2426,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/hapag lloyd200.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/hapag lloyd200.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -2220,7 +2537,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_18">
+                   <widget class="QPushButton" name="exitlighthousepage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -2233,8 +2550,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -2307,7 +2624,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/lighthouse.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/lighthouse.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -2412,7 +2729,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_19">
+                   <widget class="QPushButton" name="exitbqspage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -2425,8 +2742,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -2499,7 +2816,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_sea_shell_240px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_lighthouse_128px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -2610,7 +2927,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_20">
+                   <widget class="QPushButton" name="exitcleanlinespage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -2623,8 +2940,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -2697,7 +3014,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_starfish_52px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_starfish_52px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -2808,7 +3125,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_21">
+                   <widget class="QPushButton" name="exitlpgpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -2821,8 +3138,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -2895,7 +3212,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/lpglogo.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/lpglogo.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -3006,7 +3323,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_22">
+                   <widget class="QPushButton" name="exitbargeloadingpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -3019,8 +3336,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -3093,7 +3410,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/barge128x128.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/barge128x128.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -3204,7 +3521,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_23">
+                   <widget class="QPushButton" name="exitundeliveredpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -3217,8 +3534,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -3291,7 +3608,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_inspection_240px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_inspection_240px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -3402,7 +3719,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_24">
+                   <widget class="QPushButton" name="exitquantitcontrolpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -3415,8 +3732,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -3489,7 +3806,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_survey_48px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_survey_48px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -3600,7 +3917,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_26">
+                   <widget class="QPushButton" name="exitonhirepage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -3613,8 +3930,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -3687,7 +4004,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_water_transportation_52px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_water_transportation_52px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -3798,7 +4115,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_27">
+                   <widget class="QPushButton" name="exitsupplierbargepage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -3811,8 +4128,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -3885,7 +4202,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_ship_wheel_240px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_ship_wheel_240px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -3996,7 +4313,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_28">
+                   <widget class="QPushButton" name="exitittpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -4009,8 +4326,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -4083,7 +4400,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/icons8_sea_shell_60px.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_sea_shell_60px.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -4191,7 +4508,7 @@ p, li { white-space: pre-wrap; }
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
-                   <widget class="QPushButton" name="pushButton_29">
+                   <widget class="QPushButton" name="exitchemicalpage">
                     <property name="geometry">
                      <rect>
                       <x>20</x>
@@ -4204,8 +4521,8 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset>
-                      <normaloff>:/icons/icons/arrow.png</normaloff>:/icons/icons/arrow.png</iconset>
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -4278,7 +4595,7 @@ p, li { white-space: pre-wrap; }
                      <string/>
                     </property>
                     <property name="pixmap">
-                     <pixmap>:/icons/icons/train-logo.png</pixmap>
+                     <pixmap resource="../icons/rc.qrc">:/icons/train-logo.png</pixmap>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -4304,13 +4621,195 @@ p, li { white-space: pre-wrap; }
            </item>
           </layout>
          </widget>
-         <widget class="QWidget" name="page_5"/>
+         <widget class="QWidget" name="joblist">
+          <layout class="QGridLayout" name="gridLayout_34">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_104">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_33">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QFrame" name="frame_105">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>81</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_15">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_106">
+                   <property name="maximumSize">
+                    <size>
+                     <width>100</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QPushButton" name="exitjoblistpage">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>20</y>
+                      <width>51</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../icons/rc.qrc">
+                      <normaloff>:/icons/arrow.png</normaloff>:/icons/arrow.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>24</width>
+                      <height>24</height>
+                     </size>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_107">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_33">
+                    <property name="geometry">
+                     <rect>
+                      <x>170</x>
+                      <y>20</y>
+                      <width>301</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Simple tfb</family>
+                      <pointsize>14</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Job List</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_108">
+                   <property name="maximumSize">
+                    <size>
+                     <width>101</width>
+                     <height>61</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_59">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>0</y>
+                      <width>71</width>
+                      <height>61</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap resource="../icons/rc.qrc">:/icons/icons8_sea_shell_240px.png</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QFrame" name="frame_109">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </widget>
        </item>
       </layout>
      </widget>
     </item>
-    <item row="1" column="0">
+    <item row="2" column="0" colspan="2">
      <widget class="QFrame" name="footer">
       <property name="minimumSize">
        <size>
@@ -4392,7 +4891,7 @@ p, li { white-space: pre-wrap; }
  </resources>
  <connections>
   <connection>
-   <sender>pushButton</sender>
+   <sender>petrobutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4408,7 +4907,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_2</sender>
+   <sender>lintecbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4424,7 +4923,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_3</sender>
+   <sender>hapagbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4440,7 +4939,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_4</sender>
+   <sender>lighthousebutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4456,7 +4955,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_5</sender>
+   <sender>bqsbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4472,7 +4971,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_6</sender>
+   <sender>cleanlinesbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4488,7 +4987,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_7</sender>
+   <sender>lpgbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4504,7 +5003,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_8</sender>
+   <sender>bargeloadingbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4520,7 +5019,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_9</sender>
+   <sender>undeliveredbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4536,7 +5035,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_10</sender>
+   <sender>quantitycontrolbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4552,7 +5051,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_11</sender>
+   <sender>onhirebutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4568,7 +5067,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_12</sender>
+   <sender>supplierbargebutton</sender>
    <signal>clicked()</signal>
    <receiver>head</receiver>
    <slot>close()</slot>
@@ -4584,7 +5083,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_13</sender>
+   <sender>ittbutton</sender>
    <signal>clicked()</signal>
    <receiver>head</receiver>
    <slot>close()</slot>
@@ -4600,7 +5099,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_14</sender>
+   <sender>chemicalbutton</sender>
    <signal>clicked()</signal>
    <receiver>stackedWidget</receiver>
    <slot>close()</slot>
@@ -4616,7 +5115,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_15</sender>
+   <sender>exitpetropage</sender>
    <signal>clicked()</signal>
    <receiver>frame_31</receiver>
    <slot>close()</slot>
@@ -4632,7 +5131,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_16</sender>
+   <sender>exitlintecpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_39</receiver>
    <slot>close()</slot>
@@ -4648,7 +5147,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_17</sender>
+   <sender>exithapagpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_44</receiver>
    <slot>close()</slot>
@@ -4664,7 +5163,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_18</sender>
+   <sender>exitlighthousepage</sender>
    <signal>clicked()</signal>
    <receiver>frame_49</receiver>
    <slot>close()</slot>
@@ -4680,7 +5179,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_19</sender>
+   <sender>exitbqspage</sender>
    <signal>clicked()</signal>
    <receiver>frame_53</receiver>
    <slot>close()</slot>
@@ -4696,7 +5195,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_20</sender>
+   <sender>exitcleanlinespage</sender>
    <signal>clicked()</signal>
    <receiver>frame_57</receiver>
    <slot>close()</slot>
@@ -4712,7 +5211,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_21</sender>
+   <sender>exitlpgpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_62</receiver>
    <slot>close()</slot>
@@ -4728,7 +5227,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_22</sender>
+   <sender>exitbargeloadingpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_67</receiver>
    <slot>close()</slot>
@@ -4744,7 +5243,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_23</sender>
+   <sender>exitundeliveredpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_72</receiver>
    <slot>close()</slot>
@@ -4760,7 +5259,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_24</sender>
+   <sender>exitquantitcontrolpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_77</receiver>
    <slot>close()</slot>
@@ -4776,7 +5275,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_26</sender>
+   <sender>exitonhirepage</sender>
    <signal>clicked()</signal>
    <receiver>frame_87</receiver>
    <slot>close()</slot>
@@ -4792,7 +5291,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_27</sender>
+   <sender>exitsupplierbargepage</sender>
    <signal>clicked()</signal>
    <receiver>frame_92</receiver>
    <slot>close()</slot>
@@ -4808,7 +5307,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_28</sender>
+   <sender>exitittpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_97</receiver>
    <slot>close()</slot>
@@ -4824,7 +5323,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_29</sender>
+   <sender>exitchemicalpage</sender>
    <signal>clicked()</signal>
    <receiver>frame_103</receiver>
    <slot>close()</slot>
@@ -4836,22 +5335,6 @@ p, li { white-space: pre-wrap; }
     <hint type="destinationlabel">
      <x>112</x>
      <y>156</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>petroButton</sender>
-   <signal>clicked()</signal>
-   <receiver>frame_31</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>733</x>
-     <y>415</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>447</x>
-     <y>97</y>
     </hint>
    </hints>
   </connection>
